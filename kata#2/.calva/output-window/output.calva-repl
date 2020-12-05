@@ -21,139 +21,16 @@ clj::kata#2.core=>
 ; Running all project tests…
 ; No tests found. 😱, ns: 0, vars: 0
 clj::kata#2.core=> 
-; Evaluating file: core.clj
-#'kata#2.core/convertBase8ToBase16
-clj::kata#2.core=> 
-; Running all project tests…
-; No tests found. 😱, ns: 0, vars: 0
-clj::kata#2.core=> 
-; Evaluating file: core.clj
-; Syntax error macroexpanding clojure.core/defn at (c:\Users\Emilio Escano\Desktop\Tendencias de Desarrollo de Aplicaciones\Katas\Kata #2\2. Kata#2 Convertir Octal a Hexa\kata#2\src\kata#2\core.clj:4:1).
-; + - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
-(+ 1 699) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
-; Evaluating file: core.clj
-; Syntax error macroexpanding clojure.core/defn at (c:\Users\Emilio Escano\Desktop\Tendencias de Desarrollo de Aplicaciones\Katas\Kata #2\2. Kata#2 Convertir Octal a Hexa\kata#2\src\kata#2\core.clj:4:1).
-; + - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
-(+ 1 699) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
-; Running all project tests…
-; No tests found. 😱, ns: 0, vars: 0
-clj::kata#2.core=> 
-; Evaluating file: core.clj
-#'kata#2.core/convertBase8ToBase16
-clj::kata#2.core=> 
-; Running all project tests…
-; No tests found. 😱, ns: 0, vars: 0
-clj::kata#2.core=> 
-; Evaluating file: core_test.clj
+; Evaluating file: core_test10.clj
 #'kata#2.core-test/a-test
 clj::kata#2.core-test=> 
-; Evaluating file: core_test.clj
+; Evaluating file: core_test10.clj
 #'kata#2.core-test/a-test
 clj::kata#2.core-test=> 
-; Running all project tests…
-; 1 tests finished, all passing 👍, ns: 1, vars: 1
-clj::kata#2.core-test=> 
-; Evaluating file: core_test.clj
+; Evaluating file: core_test33.clj
 #'kata#2.core-test/a-test
 clj::kata#2.core-test=> 
-; Running all project tests…
-; FAIL in kata#2.core-test/a-test (core_test.clj:7):
-; Testing case 700
-; expected:
-"1c0"
-; actual:
-(700)
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj::kata#2.core-test=> 
-; Evaluating file: core.clj
-; WARNING: reverse already refers to: #'clojure.core/reverse in namespace: kata#2.core, being replaced by: #'clojure.string/reverse
-; WARNING: replace already refers to: #'clojure.core/replace in namespace: kata#2.core, being replaced by: #'clojure.string/replace
-; Execution error (ClassCastException) at kata#2.core/eval22254 (form-init3184436587507143779.clj:1).
-; java.lang.Long cannot be cast to clojure.lang.IFn
-; Running all project tests…
-; FAIL in kata#2.core-test/a-test (core_test.clj:7):
-; Testing case 700
-; expected:
-"1c0"
-; actual:
-(700)
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj::kata#2.core-test=> 
-; Syntax error compiling at (c:\Users\Emilio Escano\Desktop\Tendencias de Desarrollo de Aplicaciones\Katas\Kata #2\2. Kata#2 Convertir Octal a Hexa\kata#2\src\kata#2\core.clj:1:8223).
-; Unable to resolve symbol: base8ToBase10 in this context
-; Syntax error compiling at (c:\Users\Emilio Escano\Desktop\Tendencias de Desarrollo de Aplicaciones\Katas\Kata #2\2. Kata#2 Convertir Octal a Hexa\kata#2\src\kata#2\core.clj:1:8223).
-; Unable to resolve symbol: octal in this context
-clojure.lang.Compiler/analyze (Compiler.java:6808)
-clojure.lang.Compiler/eval (Compiler.java:7181)
-clojure.core/eval (core.clj:3214)
-clojure.core/eval (core.clj:3210)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.core/apply (core.clj:665)
-clojure.core/with-bindings* (core.clj:1973)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.main/repl (main.clj:437)
-clojure.main/repl (main.clj:458)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:115)
-nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:150)
-nrepl.middleware.session/session-exec (session.clj:202)
-nrepl.middleware.session/session-exec (session.clj:201)
-java.lang.Thread/run (:-1)
-clj::kata#2.core=> 
-; Evaluating file: core.clj
-; WARNING: reverse already refers to: #'clojure.core/reverse in namespace: kata#2.core, being replaced by: #'clojure.string/reverse
-; WARNING: replace already refers to: #'clojure.core/replace in namespace: kata#2.core, being replaced by: #'clojure.string/replace
-#'kata#2.core/convertBase8ToBase16
-clj::kata#2.core=> 
-; Running all project tests…
-; FAIL in kata#2.core-test/a-test (core_test.clj:7):
-; Testing case 700
-; expected:
-"1c0"
-; actual:
-(700)
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj::kata#2.core=> 
-448
-clj::kata#2.core=> 
-#'kata#2.core/convertBase8ToBase16
-clj::kata#2.core=> 
-; Evaluating file: core.clj
-; WARNING: reverse already refers to: #'clojure.core/reverse in namespace: kata#2.core, being replaced by: #'clojure.string/reverse
-; WARNING: replace already refers to: #'clojure.core/replace in namespace: kata#2.core, being replaced by: #'clojure.string/replace
-nil
-clj::kata#2.core=> 
-#'kata#2.core/convertBase8ToBase16
-clj::kata#2.core=> 
-"1c0"
-clj::kata#2.core=> 
-448
-clj::kata#2.core=> 
-"1c0"
-clj::kata#2.core=> 
-; Evaluating file: core.clj
-; WARNING: reverse already refers to: #'clojure.core/reverse in namespace: kata#2.core, being replaced by: #'clojure.string/reverse
-; WARNING: replace already refers to: #'clojure.core/replace in namespace: kata#2.core, being replaced by: #'clojure.string/replace
-nil
-clj::kata#2.core=> 
-; Running all project tests…
-; FAIL in kata#2.core-test/a-test (core_test.clj:7):
-; Testing case 700
-; expected:
-"1c0"
-; actual:
-(700)
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj::kata#2.core=> 
-; Evaluating file: core_test.clj
-#'kata#2.core-test/a-test
-clj::kata#2.core-test=> 
-; Running all project tests…
-; 1 tests finished, all passing 👍, ns: 1, vars: 1
-clj::kata#2.core-test=> 
-; Evaluating file: core_test copy.clj
-#'kata#2.core-test/a-test
-clj::kata#2.core-test=> 
-; Evaluating file: core_test copy 2.clj
+; Evaluating file: core_test700.clj
 #'kata#2.core-test/a-test
 clj::kata#2.core-test=> 
 ; Running all project tests…
